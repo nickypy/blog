@@ -34,7 +34,7 @@ enableEmoji = true
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/nickpagsanjan"
+    url  = "https://www.linkedin.com/in/nickpagsanjan"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
