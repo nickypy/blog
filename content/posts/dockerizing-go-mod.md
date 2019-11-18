@@ -1,7 +1,7 @@
 ---
 title: "Dockerizing Go Modules"
 date: 2019-11-17T15:08:04-08:00
-draft: true
+draft: false
 ---
 This will be an intro to Dockerizeing go modules and multi-stage Docker builds.
 

@@ -1,7 +1,7 @@
 ---
 title: "Getting started with Keras"
 date: 2019-11-17T14:43:58-08:00
-draft: true
+draft: false
 ---
 
 First, let's install [keras](https//:keras.io).
