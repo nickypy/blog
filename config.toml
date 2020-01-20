@@ -2,6 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
 enableEmoji = true
+googleAnalytics = "UA-156554435-1"
 
 [permalinks]
   posts = "/posts/:year/:month/:title/"
