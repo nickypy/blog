@@ -1,0 +1,32 @@
+{{ define "main" }}
+    <main aria-role="main">
+        <div>
+            <picture style="margin: 15px;">
+                <img
+                    sizes="(max-width: 320px) 80vw, 320px"
+                    srcset="
+                        img/self/self_n2zcnu_c_scale,w_200.jpg 200w,
+                        img/self/self_n2zcnu_c_scale,w_355.jpg 355w,
+                        img/self/self_n2zcnu_c_scale,w_471.jpg 471w,
+                        img/self/self_n2zcnu_c_scale,w_570.jpg 570w,
+                        img/self/self_n2zcnu_c_scale,w_660.jpg 660w,
+                        img/self/self_n2zcnu_c_scale,w_740.jpg 740w,
+                        img/self/self_n2zcnu_c_scale,w_820.jpg 820w"
+                    src="img/self/self_n2zcnu_c_scale,w_820.jpg.jpg"
+                    alt="selfie; this image should be optimized" style="border-radius:50%; margin: auto; display: block;"
+                >
+            </picture>
+            <h1>{{ .Site.Title }}</h1>
+
+            {{- with .Site.Params.homeSubtitle }}
+                <p>{{.}}</p>
+            {{- end }}
+
+            {{- with .Site.Params.social }}
+                <div>
+                    {{ partial "social-icons.html" . }}
+                </div>
+            {{- end }}
+        </div>
+    </main>
+{{ end }}
